@@ -38,3 +38,11 @@ But: I don't have a Beatport Streaming subscription, I don't want to pay a month
 ## Status
 
 Absolutely nowhere!
+
+## Plan
+
+- [ ] Sketch out the UI.
+- [ ] Do some research into Go, in general. Project setup, machine configs, etc, etc.
+- [ ] Research Go TUI libraries.
+- [ ] Research Go audio libraries.
+- [ ] Plan to plan?
