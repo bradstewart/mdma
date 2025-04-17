@@ -26,6 +26,16 @@ I also find myself wanting:
 
 You can do most (all?) of these things in Rekordbox (or Traktor or Mixxx or whatever your DJ software of choice is), _however_ launching those applications is massively focus-destroying (and slow). If I have Rekordbox running, I get no work done. Also the learning/experiment part of this.
 
+### Non-Features (at least not yet)
+
+- File management (e.g. importing mp3 files and organizing them). May add in the future, but lot's of existing tools to do this, so we're assuming your files are reasonably organized on disk already (personally I just drop stuff in Apple Music and let it copy things around).
+
+### Future Ideas
+
+- Streaming service integration. Would be great to tag songs, mark two as "good together", etc from Spotify and other services before I actually go get the song from beatport.
+- Song recommender. Dig up stuff that would sound good together.
+- Relatedly, song clusterer (for lack of a better word). Basically auto-categorization based on actual audio features. I listen to a lot of weird bass music, and asking the tool for songs with laser noises would be amazing.
+
 ### Inspiration
 
 I thought what I wanted didn't really exist in any form for a while, until I found these two things:
