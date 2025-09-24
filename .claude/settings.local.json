@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(go mod init:*)",
+      "Bash(make:*)",
+      "Bash(brew install:*)",
+      "Bash(go get:*)",
+      "Bash(go test:*)",
+      "Bash(./mdma --version)",
+      "Read(//Users/bstew/repositories/music-samples/**)",
+      "Bash(ffmpeg:*)",
+      "Read(//private/tmp/**)",
+      "Bash(./mdma)",
+      "Bash(go run:*)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/test.sh:*)",
+      "Bash(timeout:*)",
+      "Bash(go build:*)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

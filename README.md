@@ -47,7 +47,58 @@ But: I don't have a Beatport Streaming subscription, I don't want to pay a month
 
 ## Status
 
-Absolutely nowhere!
+🎉 **Working prototype!** Full-featured DJ software with professional interface:
+
+**🎛️ Dual-Deck Interface:**
+- **Waveform displays** with visual audio representation
+- **Track metadata** showing Artist, Title, BPM, Key, Genre
+- **Visual volume controls** with real-time level indicators
+- **BPM sync detection** and crossfader with tempo comparison
+- **Hot cue points** (1-8) for instant track navigation
+- **Play/pause/cue controls** with visual feedback
+
+**📚 Music Library:**
+- **Professional track table** (Name, Artist, BPM, Comments)
+- **All Songs and Playlists** sections with tab navigation
+- **Real-time search** and filtering
+- **Database-backed metadata** with automatic scanning
+
+**🎵 Audio Support:**
+- **MP3 and M4A/AAC** playback via FFmpeg integration
+- **Dual-channel audio engine** with independent deck control
+- **Volume control** with visual feedback
+
+## Requirements
+
+- **Go 1.24+**
+- **FFmpeg** (for M4A/AAC support)
+- **Audio hardware** (for actual playback)
+
+## Quick Start
+
+```bash
+# Build and run
+go build -o mdma cmd/mdma/main.go
+./mdma
+
+# Controls
+## Deck Controls
+[A/B]     Switch active deck
+[Space/p] Play/pause active deck
+[x]       Stop active deck
+[c]       Cue point (return to start)
+[1-8]     Hot cue points
+[+/-]     Volume up/down
+[t]       Load test track
+
+## Library Navigation
+[j/k]     Navigate track list
+[Enter]   Load selected track to active deck
+[Tab]     Switch between All Songs/Playlists
+[/]       Search tracks
+[s]       Scan music directory
+[q]       Quit
+```
 
 ## Plan
 
